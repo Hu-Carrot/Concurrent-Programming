@@ -1,4 +1,4 @@
-package com.paratera.paa.sample.threads.spinlock;
+package cn.hujinbo.concurrent.SpinLock;
 
 import sun.misc.Unsafe;
 

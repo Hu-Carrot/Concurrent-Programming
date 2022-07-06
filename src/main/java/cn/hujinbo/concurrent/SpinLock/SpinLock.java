@@ -1,4 +1,4 @@
-package com.paratera.paa.sample.threads.spinlock;
+package cn.hujinbo.concurrent.SpinLock;
 
 import sun.misc.Unsafe;
 
@@ -7,7 +7,7 @@ import java.util.concurrent.locks.LockSupport;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * @Auther: paratera
+ * @Auther: jinbo.hu
  * @Date: 2022/6/10 09:13
  * @Description:
  */
