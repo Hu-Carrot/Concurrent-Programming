@@ -1,7 +1,7 @@
 package cn.hujinbo.concurrent.FIFOMutex;
 
 /**
- * @Auther: paratera
+ * @Auther: jinbo.hu
  * @Date: 2022/6/10 17:04
  * @Description:
  */

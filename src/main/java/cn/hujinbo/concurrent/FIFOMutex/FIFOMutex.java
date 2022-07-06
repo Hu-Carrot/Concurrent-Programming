@@ -6,7 +6,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.locks.LockSupport;
 
 /**
- * @Auther: paratera
+ * @Auther: jinbo.hu
  * @Date: 2022/6/10 17:04
  * @Description:
  */
