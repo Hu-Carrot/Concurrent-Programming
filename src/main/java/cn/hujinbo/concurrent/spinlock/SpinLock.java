@@ -1,4 +1,4 @@
-package cn.hujinbo.concurrent.SpinLock;
+package cn.hujinbo.concurrent.spinlock;
 
 import sun.misc.Unsafe;
 
@@ -30,7 +30,9 @@ public class SpinLock {
     private volatile int state = 0;
 
     public void lock() {
-        while (!cas(0,1)) {}
+        while (!cas(0,1)) {
+            //TODO yield 优化自旋(指数回退法)
+        }
     }
 
     public void unlock() {
