@@ -1,4 +1,4 @@
-package cn.hujinbo.concurrent.SpinLock;
+package cn.hujinbo.concurrent.FIFOMutex;
 
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
