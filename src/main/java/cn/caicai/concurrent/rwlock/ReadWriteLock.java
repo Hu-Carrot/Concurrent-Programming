@@ -1,7 +1,7 @@
-package cn.hujinbo.concurrent.rwlock;
+package cn.caicai.concurrent.rwlock;
 
 
-import cn.hujinbo.concurrent.spinlock.SpinLock;
+import cn.caicai.concurrent.spinlock.SpinLock;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

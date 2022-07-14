@@ -1,4 +1,4 @@
-package cn.hujinbo.concurrent.rwlock;
+package cn.caicai.concurrent.rwlock;
 
 /**
  * @Auther: jinbo.hu

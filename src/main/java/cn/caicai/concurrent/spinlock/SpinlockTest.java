@@ -1,4 +1,4 @@
-package cn.hujinbo.concurrent.spinlock;
+package cn.caicai.concurrent.spinlock;
 
 /**
  * @Auther: jinbo.hu

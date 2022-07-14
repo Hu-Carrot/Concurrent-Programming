@@ -1,4 +1,4 @@
-package cn.hujinbo.concurrent.FIFOMutex;
+package cn.caicai.concurrent.FIFOMutex;
 
 /**
  * @Auther: jinbo.hu
