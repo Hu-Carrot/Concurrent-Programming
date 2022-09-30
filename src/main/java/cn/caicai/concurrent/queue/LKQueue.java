@@ -1,7 +1,7 @@
-package cn.hujinbo.concurrent.concurrentQueue;
+package cn.caicai.concurrent.queue;
 
 
-import cn.hujinbo.concurrent.spinlock.SpinLock;
+import cn.caicai.concurrent.spinlock.SpinLock;
 
 import java.util.AbstractQueue;
 import java.util.Iterator;
@@ -12,7 +12,21 @@ import java.util.Queue;
  * @Date: 2022/6/14 16:05
  * @Description:
  */
-public class ConcurrentQueue<E> extends AbstractQueue<E> implements Queue<E> {
+public class LKQueue<E> extends AbstractQueue<E> implements Queue<E> {
+
+    private Node head;
+    private Node tail;
+
+    public LKQueue() {
+        Node node = new Node();
+        head = node;
+        tail = node;
+    }
+
+    class Node {
+        Node next;
+        E data;
+    }
 
     private SpinLock spinLock = new SpinLock();
 
